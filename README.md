@@ -2,7 +2,7 @@
 
 **Definition:** Eindimensionale Arrays sind wie Listen gleichartiger Elemente (Zahlen etc.). In einem Array kann man mehrere Typen vom gleichen Wert speichern. Arrays haben festgelegte unveränderbare Größen in der length gespeichert werden.
 
-**Wie kann man sich einen Array vorstellen? + Skizz:**
+**Wie kann man sich einen Array vorstellen? + Skizze:**
 ![eindimensionalesArray_Skizze](https://user-images.githubusercontent.com/114598328/201475041-8069bf1d-33e2-4137-90e9-da5cc1905447.jpg)
 
 **Index und array.Length:**
