@@ -27,6 +27,33 @@ public class ArrayUebung : MonoBehaviour
         Debug.Log(arrayColoredImagesRed[0].name);
         Debug.Log(arrayColoredImagesRed[3].name);
 
+        WerteWiedergabe();
+        StringWiedergabe();
     }
+
+
+    private void WerteWiedergabe()
+    {
+        int[] werteArray = new int[5] { 1, 2, 3, 4, 5 };
+
+        for (int i = 0; i < werteArray.Length; i++)
+        { 
+            Debug.Log(werteArray[i]++ + "= Element" + i);
+        }
+    }
+
+    private void StringWiedergabe()
+    {
+        int[] stringWiedergabe = new int[4] { 1, 2, 3, 4};
+        string text = " ";
+
+        for (int i = 0; i < stringWiedergabe.Length; i++)
+        {
+            text += stringWiedergabe[i] + " ";
+        }
+        Debug.Log(text);
+
+    }
+
 
 }
