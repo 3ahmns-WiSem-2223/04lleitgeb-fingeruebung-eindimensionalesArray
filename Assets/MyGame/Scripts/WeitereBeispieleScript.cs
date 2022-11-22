@@ -129,17 +129,17 @@ public class WeitereBeispieleScript : MonoBehaviour
         string lastString = "a";
         for (int i = 0; i < array8.Length; i++)
         {
-            if (lastString == "b" || i == 0)
+            if (lastString == "a" || i == 0)
             {
-                array8[i] = "a";
+                array8[i] = "b";
                 lastString = array8[i];
                 Debug.Log(array8[i]);
             }
 
-            if (array8[i] != "a")
-                if (lastString == "a")
+            if (array8[i] != "b")
+                if (lastString == "b")
                 {
-                    array8[i] = "b";
+                    array8[i] = "a";
                     lastString = array8[i];
                     Debug.Log(array8[i]);
                 }
