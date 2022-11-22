@@ -126,20 +126,20 @@ public class WeitereBeispieleScript : MonoBehaviour
 
     private void StringValues()
     {
-        string lastString = "last";
+        string lastString = "a";
         for (int i = 0; i < array8.Length; i++)
         {
-            if (lastString == "last" || i == 0)
+            if (lastString == "b" || i == 0)
             {
-                array8[i] = "array";
+                array8[i] = "a";
                 lastString = array8[i];
                 Debug.Log(array8[i]);
             }
 
-            if (array8[i] != "array")
-                if (lastString == "array")
+            if (array8[i] != "a")
+                if (lastString == "a")
                 {
-                    array8[i] = "last";
+                    array8[i] = "b";
                     lastString = array8[i];
                     Debug.Log(array8[i]);
                 }
